@@ -1,0 +1,171 @@
+span {
+    margin-left: 200px;
+    height: 578px;
+    width: 526px;
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(India.png);
+}
+
+button {
+    border-radius: 50%;
+}
+
+
+button:hover {
+    /* display: block; */
+    border: 1px solid black;
+    /* border-radius: 50%; */
+    
+}
+
+
+
+#btn1 {
+    margin-top: 135px;
+    margin-left: 170px;
+
+}
+#btn2 {
+    margin-top: 0px;
+    margin-left: 185px;
+}
+#btn3 {
+    margin-top: 2px;
+    margin-left: 185px;
+}
+#btn4 {
+    margin-top: 15px;
+    margin-left: 435px;
+}
+#btn5 {
+    margin-top: 0px;
+    margin-left: 245px;
+}
+#btn6 {
+    margin-top: 50px;
+    margin-left: 80px;
+}
+#btn7 {
+    margin-top: 0px;
+    margin-left: 370px;
+}
+#btn8 {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#btn9 {
+    margin-top: 75px;
+    margin-left: 220px;
+}
+#btn10 {
+    margin-top: 25px;
+    margin-left: 175px;
+}
+#btn11 {
+    margin-top: 65px;
+    margin-left: 155px;
+}
+
+
+#btn1::after {
+    content: "DELHI";
+    display: none;
+}
+
+#btn1:hover::after {
+    display: inline-block;
+}
+
+#btn2::after {
+    content: "NOIDA";
+    display: none;
+}
+
+#btn2:hover::after {
+    display: inline-block;
+}
+
+#btn3::after {
+    content: "GURGAON";
+    display: none;
+}
+
+#btn3:hover::after {
+    display: inline-block;
+}
+
+#btn4::after {
+    content: "GUWAHATI";
+    display: none;
+}
+
+#btn4:hover::after {
+    display: inline-block;
+}
+
+#btn5::after {
+    content: "LUCKNOW";
+    display: none;
+}
+
+#btn5:hover::after {
+    display: inline-block;
+}
+
+#btn6::after {
+    content: "AHMEDABAD";
+    display: none;
+}
+
+#btn6:hover::after {
+    display: inline-block;
+}
+
+#btn7::after {
+    content: "KOLKATA";
+    display: none;
+}
+
+#btn7:hover::after {
+    display: inline-block;
+}
+
+#btn8::after {
+    content: "MUMBAI";
+    display: none;
+}
+
+#btn8:hover::after {
+    display: inline-block;
+}
+
+#btn9::after {
+    content: "CHENNAI";
+    display: none;
+}
+
+#btn9:hover::after {
+    display: inline-block;
+}
+
+#btn10::after {
+    content: "BANGALORE";
+    display: none;
+}
+
+#btn10:hover::after {
+    display: inline-block;
+}
+
+#btn11::after {
+    content: "TRIVANDRUM";
+    display: none;
+}
+
+#btn11:hover::after {
+    display: inline-block;
+}
+
